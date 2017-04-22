@@ -12,6 +12,7 @@ password authentication module
 <b>Retype password:</b><br> 
 <input type="password" id="repass"  onkeyup="match();length();"/> <br>
 <input type="checkbox" name="checkbox" value="login" checked>Keep me log in<br>
+<input type="text" placeholder="Username"/>
 <label id="lbl_check"> </label><br>
 <label id="lbl_length"> </label><br>
 <label id="lbl_strength"> </label>
