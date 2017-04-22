@@ -13,8 +13,8 @@ password authentication module
 <input type="password" id="repass"  onkeyup="match();length();"/> <br>
 <label id="lbl_check"> </label><br>
 <label id="lbl_length"> </label><br>
-<label id="lbl_strength"> </label>
-
+<label id="lbl_strength"> </label><br>
+<input type="checkbox" value="log in" checked/>keep me logged in<br>
 <script type="text/javascript" src="interaction.js"/>
 </script>
 </div>
